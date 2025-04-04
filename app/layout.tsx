@@ -33,8 +33,8 @@ export default function RootLayout({
       <body className={`${playfair.variable} ${cormorant.variable} font-sans`}>
         <header className="bg-[#f5eee3] py-4">
           <div className="container mx-auto px-4">
-            <div className="flex justify-between items-center">
-              <Link href="/" className="relative h-16 w-48">
+            <div className="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0">
+              <Link href="/" className="relative h-12 sm:h-16 w-36 sm:w-48">
                 <Image
                   src="/glowzi-header.png"
                   alt="Glowzi Skin Laboratory"
